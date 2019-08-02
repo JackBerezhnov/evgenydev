@@ -5,10 +5,18 @@ header {
     padding: 0;
     margin: 0;
 }
+
 .about {
     height: 100%;
     background: url('img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+.intro {
+    padding-top: 300px;
+    color: white;
+}
+.info {
+    height: 50%;
 }
