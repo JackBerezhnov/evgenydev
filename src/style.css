@@ -19,7 +19,7 @@ header {
     font-size: 1.3em;
 }
 .nav-link:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(45, 240, 247, 0.3);
   box-sizing: border-box;
   position: relative;
   color: #f4f4f4;
@@ -61,10 +61,21 @@ header {
     font-size: 5em;
 }
 .about > div > p {
-    font-size: 20px;
+    font-size: 25px;
 }
 .info-me {
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+.pro-image {
+    margin-right: 30px;
+}
+.projects {
     padding-top: 150px; 
+    text-align: center;
+}
+.projects > h1 {
+    font-size: 4em;
 }
 
 @media screen and (max-width: 600px) {
