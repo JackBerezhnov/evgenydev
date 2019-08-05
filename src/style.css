@@ -18,6 +18,17 @@ header {
     padding-right: 20px;  
     font-size: 1.3em;
 }
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  position: relative;
+  color: #f4f4f4;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+}
 .intro {
     margin-top: 300px;
     color: white;
@@ -38,6 +49,30 @@ header {
 .info {
     height: 50%;
 }
-.about {
+.title-about {
     padding-top: 150px;
+}
+.about {
+    color: white;
+    padding: 10px;
+    background: rgb(24, 50, 111);
+}
+.about > div > h1 {
+    font-size: 5em;
+}
+.about > div > p {
+    font-size: 20px;
+}
+.info-me {
+    padding-top: 150px; 
+}
+
+@media screen and (max-width: 600px) {
+    .intro > h1 {
+        font-size: 3em;
+    }
+    .intro {
+        margin-top: 100px;
+        color: white;
+    }
 }
