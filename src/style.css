@@ -34,7 +34,7 @@ header {
     color: white;
 }
 .intro > h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 5em;
     text-shadow: 4px 4px rgb(0, 0, 0, 50%);
 }
