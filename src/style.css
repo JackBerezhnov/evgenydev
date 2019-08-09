@@ -52,6 +52,9 @@ header {
 .title-about {
     padding-top: 150px;
 }
+.typed-cursor {
+    opacity: 0 !important;
+}
 .about {
     color: white;
     padding: 10px;
