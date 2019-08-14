@@ -50,25 +50,28 @@ header {
     height: 50%;
 }
 .title-about {
-    padding-top: 150px;
+    padding-top: 125px;
 }
 .typed-cursor {
     opacity: 0 !important;
 }
 .about {
-    color: white;
+    color: black;
     padding: 10px;
-    background: rgb(24, 50, 111);
+    background: rgb(245, 245, 245);
 }
 .about > div > h1 {
     font-size: 5em;
 }
 .about > div > p {
-    font-size: 25px;
+    font-size: 16px;
 }
 .info-me {
-    padding-top: 150px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    margin-top: 150px;
     margin-bottom: 150px;
+    box-shadow: 1px 1px 5px rgb(71, 71, 71);
 }
 .pro-image {
     margin-right: 30px;
