@@ -94,6 +94,13 @@ header {
 .projects > h1 {
     font-size: 4em;
 }
+footer {
+    height: 10%;
+    color: white;
+    background: black;
+    text-align: center;
+    padding-top: 4vh; 
+}
 @media screen and (max-width: 600px) {
     .intro > h1 {
         font-size: 3em;
