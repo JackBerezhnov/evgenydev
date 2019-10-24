@@ -1,5 +1,8 @@
 html,
 body,
+
+
+
 header {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -17,17 +20,6 @@ header {
     margin: 10px;
     padding-right: 20px;  
     font-size: 1.3em;
-}
-.nav-link:hover {
-  background: rgb(45, 240, 247, 0.3);
-  box-sizing: border-box;
-  position: relative;
-  color: #f4f4f4;
-  box-sizing: border-box;
-  position: relative;
-  cursor: pointer;
-  outline: 0;
-  border: none;
 }
 .intro {
     margin-top: 300px;
@@ -98,6 +90,31 @@ header {
 }
 .projects > h1 {
     font-size: 4em;
+}
+
+.btn-new {
+    color: #53CDD8;
+    border-color: #53CDD8;
+    position: relative;
+    overflow: hidden;
+  }
+.nav-link:before {
+    content: "";
+    background-color: #53CDD8;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -30px;
+    height: 100%;
+    width: 0;
+    transform: skew(45deg, 0);
+    transition: all .5s;
+}
+.nav-link:hover {
+    color: #53CDD8;
+}
+.nav-link:before {
+    width: 150%;;
 }
 
 @media screen and (max-width: 600px) {
