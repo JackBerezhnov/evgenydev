@@ -94,6 +94,25 @@ header {
 .projects > h1 {
     font-size: 4em;
 }
+.link {
+    text-decoration: none !important;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    background: rgb(38, 141, 250);
+    border-radius: 5px;
+}
+.link:hover {
+    background: rgb(1, 58, 119);
+    color: rgb(250, 250, 102);
+}
+.carousel-caption {
+    padding-bottom: 100px;
+    padding-top: 0px !important;
+}
+.project-title {
+    margin-bottom: 35px;
+}
 footer {
     height: 10%;
     color: white;
