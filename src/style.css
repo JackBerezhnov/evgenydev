@@ -88,11 +88,12 @@ header {
     margin-right: 30px;
 }
 .projects {
-    padding-top: 150px; 
+    padding-top: 30px; 
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
-.projects > h1 {
-    font-size: 4em;
+.projects > h2 {
+    font-size: 5rem;
 }
 .link {
     text-decoration: none !important;
