@@ -114,6 +114,10 @@ header {
 .project-title {
     margin-bottom: 35px;
 }
+.dark {
+    filter: brightness(50%);
+}
+
 footer {
     height: 10%;
     color: white;
@@ -130,3 +134,4 @@ footer {
         color: white;
     }
 }
+
