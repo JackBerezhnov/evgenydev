@@ -90,6 +90,12 @@ header {
     margin-bottom: 150px;
     box-shadow: 1px 1px 5px rgb(71, 71, 71);
 }
+
+.skills-container {
+    justify-content: space-between;
+    padding: 0;
+}
+
 .pro-image {
     margin-right: 30px;
 }
