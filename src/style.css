@@ -106,11 +106,13 @@ header {
 
 .link {
     text-decoration: none !important;
-    padding: 10px;
+    padding: 20px;
+    text-transform: uppercase;
     margin: 15px;
     color: white;
     background: rgb(38, 141, 250);
     border-radius: 5px;
+    transition: all 0.5s ease-in-out;
 }
 .link:hover {
     background: rgb(1, 58, 119);
@@ -122,6 +124,7 @@ header {
 }
 .project-title {
     margin-bottom: 35px;
+    font-size: 3rem;
     color: #ffffff;
 }
 .project-video-template {
