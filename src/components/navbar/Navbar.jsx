@@ -4,9 +4,9 @@ function Navbar({ firstNav, secondNav, thirdNav }) {
     return(
         <navbar>
             <ul className='navbar-list'>
-                <li>{firstNav}</li>
-                <li>{secondNav}</li>
-                <li>{thirdNav}</li>
+                <li><a href="#home">{firstNav}</a></li>
+                <li><a href="#about">{secondNav}</a></li>
+                <li><a href="#projects">{thirdNav}</a></li>
             </ul>
         </navbar>
     );
