@@ -1,0 +1,9 @@
+.title {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 90vh;
+    background: #05445E;
+    width: 45%;
+    padding-left: 7rem;
+}

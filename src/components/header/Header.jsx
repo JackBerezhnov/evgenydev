@@ -1,14 +1,12 @@
 import './Header.css';
 import Navbar from '../navbar/Navbar';
+import Title from '../title/Title';
 
-function Header(props) {
+function Header() {
     return (
-        <div class="header container-fluid">
+        <div className="header container-fluid">
             <Navbar firstNav="Home" secondNav="About" thirdNav="Projects"/>
-            <div class="title">
-                <h1><span class="blue">Hi!</span> I am<br/> Evgeny Berezhnov <br/><span class="blue">Frontend developer</span></h1>
-            </div>
-
+            <Title/>
         </div>
     );
 }
