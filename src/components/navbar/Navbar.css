@@ -1,9 +1,11 @@
 .navbar-list {
     list-style: none;
     display: flex;
+    position: absolute;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    right: 0;
     padding: 40px 81px 0px 0px;
 }
 
