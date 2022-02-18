@@ -1,7 +1,9 @@
-function InfoCard() {
+import "./InfoCard.css";
+
+function InfoCard({imagePath}) {
     return(
         <div className="info-card">
-            <h3>Card</h3>
+            <img className="avatar" src={imagePath} alt="avatar"/>
         </div>
     );
 }

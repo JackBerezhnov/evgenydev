@@ -1,12 +1,13 @@
 import './About.css';
 import InfoCard from '../info-card/InfoCard';
+import avatar from '../../images/Evgeny.jpg';
 
 function About() {
     return(
-        <div class="about container">
+        <div className="about container">
             <h2>About Me</h2>
-            <div class="description">
-                <InfoCard />
+            <div className="description">
+                <InfoCard imagePath={avatar}/>
             </div>
         </div>
     );
