@@ -1,0 +1,14 @@
+.container-fluid {
+    display: block;
+    width: 100%;
+    height: 90vh;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+}
+
+body {
+    background-color: #004967;
+}
