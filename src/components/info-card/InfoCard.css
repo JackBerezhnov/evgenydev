@@ -5,3 +5,16 @@
 .info-card {
     margin-top: 3rem;
 }
+
+.info-description {
+    list-style: none;
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.info-description a {
+    color: #ffffff;
+    font-size: 24px;
+}
