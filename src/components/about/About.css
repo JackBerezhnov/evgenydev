@@ -8,3 +8,17 @@ h2 {
 .about {
     padding-top: 5rem;
 }
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.description p {
+    font-family: 'Roboto Mono';
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 60px;
+}
