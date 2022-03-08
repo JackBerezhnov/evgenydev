@@ -9,6 +9,12 @@ h2 {
     padding-top: 5rem;
 }
 
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .description {
     display: flex;
     flex-wrap: wrap;

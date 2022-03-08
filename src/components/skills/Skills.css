@@ -1,0 +1,35 @@
+.skills-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 3rem;
+    background: rgba(24, 154, 180, 0.26);
+    border-radius: 25px;
+}
+
+.skills-table ul {
+    list-style: none;
+    padding-top: 0.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.skills-table li {
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.skills-table h3 {
+    font-family: 'Roboto Condensed';
+    font-size: 36px;
+    font-weight: 700;
+    color: #75E6DA;
+}
+
+.skills-table .first-column {
+    margin-right: 2rem;
+    padding-right: 2rem;
+    border-right: 1px solid #ffffff;
+}
